@@ -26,6 +26,9 @@ export default function App() {
     });
   }
 
+  
+
+
   function handleDeleteGoal(id: number){
     setGoal(prevGoals => prevGoals.filter((goal) => goal.id != id));
   }
