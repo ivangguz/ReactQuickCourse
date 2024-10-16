@@ -22,7 +22,7 @@ export default function CourseGoalList({
 
     let warningBox: ReactNode;
     if (goals.length >= 4){
-      warningBox = <InfoBox mode="warning">
+      warningBox = <InfoBox mode="warning" severity="medium">
         You are collecting a lot of goals. Dont put too much on your plate! 
       </InfoBox>;
     }
