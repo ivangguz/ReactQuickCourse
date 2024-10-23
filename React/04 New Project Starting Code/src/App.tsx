@@ -1,13 +1,9 @@
 import Button from "./components/Button";
+import Container from "./components/Container";
 
 function App() {
   return <main>
-    <p>
-      <Button>A Button</Button>
-    </p>
-    <p>
-      <Button href="https://www.google.com">A Link</Button>
-    </p>
+    <Container as={Button}>Click Me</Container>
   </main>
 }
 
